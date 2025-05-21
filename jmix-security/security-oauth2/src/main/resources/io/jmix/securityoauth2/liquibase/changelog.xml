@@ -31,5 +31,6 @@
     <property name="byte[].type" dbms="hsqldb" value="BLOB"/>
 
     <include file="/io/jmix/securityoauth2/liquibase/changelog/001-security-oauth2.xml"/>
+    <include file="/io/jmix/securityoauth2/liquibase/changelog/002-security-oauth2.xml"/>
 
 </databaseChangeLog>

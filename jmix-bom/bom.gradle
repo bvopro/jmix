@@ -60,7 +60,7 @@ publishing {
 
 group = 'io.jmix.bom'
 
-def vaadinVersion = '8.14.3-4-jmix'
+def vaadinVersion = '8.14.4-1-jmix'
 
 javaPlatform {
     allowDependencies()
@@ -270,9 +270,9 @@ dependencies {
         api 'org.apache.commons:commons-compress:1.26.0'
         api 'org.dom4j:dom4j:2.1.4'
         api 'org.eclipse.persistence:jakarta.persistence:2.2.3'
-        api 'org.eclipse.persistence:org.eclipse.persistence.core:2.7.9-7-jmix'
-        api 'org.eclipse.persistence:org.eclipse.persistence.jpa:2.7.9-7-jmix'
-        api 'org.eclipse.persistence:org.eclipse.persistence.extension:2.7.9'
+        api 'org.eclipse.persistence:org.eclipse.persistence.core:2.7.15-1-jmix'
+        api 'org.eclipse.persistence:org.eclipse.persistence.jpa:2.7.15-1-jmix'
+        api 'org.eclipse.persistence:org.eclipse.persistence.extension:2.7.15'
         api 'org.glassfish:jakarta.el:3.0.4'
         api 'com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer:20220608.1'
 
@@ -408,9 +408,9 @@ dependencies {
         api "com.openhtmltopdf:openhtmltopdf-rtl-support:$openhtmltopdfVersion"
         api "com.openhtmltopdf:openhtmltopdf-pdfbox:$openhtmltopdfVersion"
 
-        api 'org.docx4j:docx4j-JAXB-ReferenceImpl:11.3.2'
-        api 'org.docx4j:docx4j-ImportXHTML:8.3.11'
-        api 'org.docx4j:docx4j-export-fo:11.3.2'
+        api 'org.docx4j:docx4j-JAXB-ReferenceImpl:11.5.3'
+        api 'org.docx4j:docx4j-ImportXHTML:11.4.8'
+        api 'org.docx4j:docx4j-export-fo:11.5.3'
 
         api 'org.jsoup:jsoup:1.17.2'
         api 'org.olap4j:olap4j:1.2.0'
@@ -451,9 +451,9 @@ dependencies {
         api 'com.jayway.jsonpath:json-path:2.9.0'
         api 'org.apache.james:apache-mime4j-core:0.8.10'
 
-        api 'org.apache.tomcat.embed:tomcat-embed-core:9.0.95'
-        api 'org.apache.tomcat.embed:tomcat-embed-el:9.0.95'
-        api 'org.apache.tomcat.embed:tomcat-embed-websocket:9.0.95'
+        api 'org.apache.tomcat.embed:tomcat-embed-core:9.0.102'
+        api 'org.apache.tomcat.embed:tomcat-embed-el:9.0.102'
+        api 'org.apache.tomcat.embed:tomcat-embed-websocket:9.0.102'
 
         runtime 'org.postgresql:postgresql:42.7.3'
         runtime 'org.hsqldb:hsqldb:2.7.2'
